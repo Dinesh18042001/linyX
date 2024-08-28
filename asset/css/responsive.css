@@ -1,0 +1,39 @@
+
+/* navbar section start */
+
+@media (max-width: 991px) {
+    .topbar-right-bg {
+        display: none !important;
+    }
+}
+
+
+
+
+/* banner section start  */
+
+@media(max-width: 991px) {
+    .banner-card-section {
+    margin-top: 0;
+    }
+}
+
+@media(max-width: 991px){
+    .video-banner .banner-info{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        width: 100%;
+    } 
+
+    .video-banner .banner-info h3{
+        font-size: 25px; 
+    }
+
+    .video-banner p {
+        font-size: 15px; 
+        line-height: 30px;
+        padding: 30px;
+    }
+}
+/* banner section end */
